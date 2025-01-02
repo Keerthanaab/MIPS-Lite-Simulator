@@ -1,0 +1,169 @@
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 11:40:23 on Jun 04,2024
+# vlog -reportprogress 300 functional_simulator.sv "+acc" 
+# -- Compiling module functional_simulator
+# 
+# Top level modules:
+# 	functional_simulator
+# End time: 11:40:23 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 11:40:23 on Jun 04,2024
+# vlog -reportprogress 300 pipeline_without_forward.sv "+acc" 
+# -- Compiling module pipeline_without_forward
+# 
+# Top level modules:
+# 	pipeline_without_forward
+# End time: 11:40:24 on Jun 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 11:40:24 on Jun 04,2024
+# vlog -reportprogress 300 pipeline_with_forward.sv "+acc" 
+# -- Compiling module pipeline_with_forward
+# 
+# Top level modules:
+# 	pipeline_with_forward
+# End time: 11:40:24 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 11:40:24 on Jun 04,2024
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:40:25 on Jun 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.top 
+# Start time: 11:40:25 on Jun 04,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.functional_simulator(fast)
+# Loading work.pipeline_without_forward(fast)
+# Loading work.pipeline_with_forward(fast)
+#    Time: 34150 ns  Iteration: 1  Instance: /top
+# 1
+# Break in Module top at top.sv line 18
+quit -sim
+# --------------- Project: MIPS ISA Simulator -------------
+# ------------------------ Team - 8 -----------------------
+# 
+# Team Members: 
+#                Akhileswari Sirigineedi - 941575537
+#                Enoch Akanksh Vasimalla - 926900483
+#                Dhruva Teja Koppisetty  - 952138674
+#                Keerthanaa Bhoopathy    - 942229350
+# 
+# 
+# -------------- FUNCTION SIMULATOR REPORT --------------
+# 
+# Number of instrcutions             :         911
+# Number of Arithmetic instructions  :         375
+# Number of Logical instructions     :          61
+# Number of Memory Accesses          :         300
+# Number of Branch instructions      :         175
+# 
+# 
+# -------------- REGISTERS AND MEMORY REPORT --------------
+# 
+# Number of Branches taken           :         119
+# Value of PC                        :         112
+# The contents of Register[          0] are       :           0
+# The contents of Register[         11] are       :        1044
+# The contents of Register[         12] are       :        1836
+# The contents of Register[         13] are       :        2640
+# The contents of Register[         14] are       :          25
+# The contents of Register[         15] are       :        -188
+# The contents of Register[         16] are       :         213
+# The contents of Register[         17] are       :          29
+# The contents of Register[         18] are       :        3440
+# The contents of Register[         19] are       :          -1
+# The contents of Register[         20] are       :          -2
+# The contents of Register[         21] are       :          -1
+# The contents of Register[         22] are       :          76
+# The contents of Register[         23] are       :           3
+# The contents of Register[         24] are       :          -1
+# The contents of Register[         25] are       :           3
+# Memory Accessed[       2400] are:          2
+# Memory Accessed[       2404] are:          4
+# Memory Accessed[       2408] are:          6
+# Memory Accessed[       2412] are:          8
+# Memory Accessed[       2416] are:         10
+# Memory Accessed[       2420] are:         12
+# Memory Accessed[       2424] are:         14
+# Memory Accessed[       2428] are:         16
+# Memory Accessed[       2432] are:         18
+# Memory Accessed[       2436] are:         29
+# Memory Accessed[       2440] are:         22
+# Memory Accessed[       2444] are:         24
+# Memory Accessed[       2448] are:         26
+# Memory Accessed[       2452] are:         28
+# Memory Accessed[       2456] are:         30
+# Memory Accessed[       2460] are:         32
+# Memory Accessed[       2464] are:         34
+# Memory Accessed[       2468] are:         36
+# Memory Accessed[       2472] are:         38
+# Memory Accessed[       2476] are:         59
+# Memory Accessed[       2480] are:         42
+# Memory Accessed[       2484] are:         44
+# Memory Accessed[       2488] are:         46
+# Memory Accessed[       2492] are:         48
+# Memory Accessed[       2496] are:         50
+# Memory Accessed[       2500] are:         52
+# Memory Accessed[       2504] are:         54
+# Memory Accessed[       2508] are:         56
+# Memory Accessed[       2512] are:         58
+# Memory Accessed[       2516] are:         89
+# Memory Accessed[       2520] are:         62
+# Memory Accessed[       2524] are:         64
+# Memory Accessed[       2528] are:         66
+# Memory Accessed[       2532] are:         68
+# Memory Accessed[       2536] are:         70
+# Memory Accessed[       2540] are:         72
+# Memory Accessed[       2544] are:         74
+# Memory Accessed[       2548] are:         76
+# Memory Accessed[       2552] are:         78
+# Memory Accessed[       2556] are:        119
+# Memory Accessed[       2560] are:         82
+# Memory Accessed[       2564] are:         84
+# Memory Accessed[       2568] are:         86
+# Memory Accessed[       2572] are:         88
+# Memory Accessed[       2576] are:         90
+# Memory Accessed[       2580] are:         92
+# Memory Accessed[       2584] are:         94
+# Memory Accessed[       2588] are:         96
+# Memory Accessed[       2592] are:         98
+# Memory Accessed[       2596] are:        149
+# Memory Accessed[       2600] are:          2
+# Memory Accessed[       2604] are:          4
+# Memory Accessed[       2608] are:          6
+# Memory Accessed[       2612] are:          8
+# Memory Accessed[       2616] are:         10
+# Memory Accessed[       2620] are:         12
+# Memory Accessed[       2624] are:         14
+# Memory Accessed[       2628] are:         16
+# Memory Accessed[       2632] are:         18
+# Memory Accessed[       2636] are:         29
+# 
+# 
+# -------------- PIPELINE STATISTICS (WITHOUT FORWARDING) --------------
+# 
+# Number of clock cycles in non forwarding :        1707
+# Number of stall cycles                   :         554
+# Number of Data Hazards                   :         307
+# 
+# 
+# ------------------- PIPELINE STATISTICS (FORWADING) ------------------
+# 
+# Number of clock cycles during forwarding :        1213
+# Number of stall in forwarding            :          60
+# Number of Data Hazards                   :          60
+# 
+# 
+# -------------------- HALT COMPLETED --------------------
+# End time: 11:40:37 on Jun 04,2024, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
